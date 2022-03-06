@@ -22,7 +22,7 @@ mongoose.connection.once('open', () => console.log('Now connected to MongoDB Atl
 const app = express();
 
 const corsOptions = {
-        origin: ['http://localhost:3000', 'https://still-cliffs-07176.herokuapp.com'],
+        origin: ['http://localhost:3000', 'https://agitated-goldwasser-4eebd5.netlify.app'],
         optionsSuccessStatus: 200
 }
 
