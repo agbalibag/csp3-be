@@ -22,7 +22,7 @@ mongoose.connection.once('open', () => console.log('Now connected to MongoDB Atl
 const app = express();
 
 const corsOptions = {
-        origin: ['http://localhost:3000', 'https://csp3-back-end.herokuapp.com'],
+        origin: ['http://localhost:3000', 'https://csp3-ed4ujyklj-agbalibag.vercel.app/'],
         optionsSuccessStatus: 200
 }
 
